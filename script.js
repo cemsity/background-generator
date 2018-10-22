@@ -1,3 +1,6 @@
+const _ = require("lodash");
+
+console.log(_);
 let css = document.querySelector(".cssCode");
 let color1 = document.querySelector(".color1");
 let color2 = document.querySelector(".color2");
@@ -16,3 +19,4 @@ setGradient = () => {
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);
+setGradient();
